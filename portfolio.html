@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeann Oliver Argarin Portfolio</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Zeann's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">My Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Work Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Welcome Section -->
+<section id="intro" class="text-center d-flex justify-content-center align-items-center">
+  <div class="container">
+    <h1>WELCOME TO MY PORTFOLIO!</h1>
+    <p>I'm Zeann Oliver Argarin, a computer science student.</p>
+  </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="container mt-5 pt-5">
+  <div class="row align-items-center">
+    <div class="col-md-12 text-center">
+      <h1>About Me</h1>
+      <p>I'm deeply passionate about technology, and coding is one of the most fulfilling activities I engage in. The process of solving problems, writing clean and efficient code, and constantly learning new programming languages and frameworks keeps me motivated. It’s incredibly rewarding to see a project come to life through the code I write, whether it's a personal project or part of a larger team effort. The ever-evolving nature of technology keeps me curious, always striving to stay updated with new tools, trends, and best practices in the field. Aside from the satisfaction of coding itself, I also love the creative aspects of it—finding elegant solutions to complex problems, experimenting with different approaches, and optimizing performance. Coding gives me a sense of accomplishment, and the challenges it presents help me grow both professionally and personally. In my free time, I balance this passion with other activities like cycling and playing online games, but my love for coding remains a central part of my life and aspirations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<div id="skills" class="container mt-5">
+  <h1 class="text-center">My Skills</h1>
+  <ul class="list-group mt-3">
+    <li class="list-group-item">HTML</li>
+    <li class="list-group-item">Python</li>
+    <li class="list-group-item">Java</li>
+    <li class="list-group-item">C++</li>
+  </ul>
+</div>
+
+<!-- Work Experience Section -->
+<div id="experience" class="container mt-5">
+  <h1 class="text-center">Work Experience</h1>
+  <table class="table table-bordered table-hover mt-3">
+    <thead class="table-dark">
+      <tr>
+        <th>Job Title</th>
+        <th>Company Name</th>
+        <th>Dates Worked</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Web Developer</td>
+        <td>Secret Company</td>
+        <td>2022 - Present</td>
+      </tr>
+      <tr>
+        <td>Intern Developer</td>
+        <td>Tech Company</td>
+        <td>2020 - 2022</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Projects Section -->
+<div id="projects" class="container mt-5">
+  <h1 class="text-center">Projects</h1>
+  <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+    <div class="col">
+      <div class="card">
+        <img src="https://i.imgur.com/suxiyTL.png" class="card-img-top" alt="JavaScript Calculator">
+        <div class="card-body">
+          <h5 class="card-title">JavaScript Calculator</h5>
+          <a href="https://codepen.io/Zeann-Oliver-Argarin/pen/gOVNodb" target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://i.imgur.com/82OApKK.png" class="card-img-top" alt="Interactive To-Do List">
+        <div class="card-body">
+          <h5 class="card-title">Interactive To-Do List</h5>
+          <a href="https://codepen.io/Zeann-Oliver-Argarin/pen/vEBBEjQ" target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="container mt-5">
+  <h1 class="text-center">Contact Me</h1>
+  <form class="mt-3">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+</div>
+
+<footer class="text-center py-3 mt-5">
+  &copy; 2024 Zeann Oliver Argarin.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
